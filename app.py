@@ -58,7 +58,7 @@ os.makedirs(IMG_DIR, exist_ok=True)
 # --------------------
 # 🔑 EXTERNAL SERVICES
 # --------------------
-api_key = "LzMuOCLKNkbir3yph5KFTjMjdatT3ykX"  # TODO: move to env var
+api_key = "YOUR_MISTRAL_API_KEY"  # TODO: move to env var
 client = Mistral(api_key=api_key)
 
 # LangChain LLM & Embeddings
